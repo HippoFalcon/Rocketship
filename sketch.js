@@ -9,9 +9,9 @@ function draw() {
   //Rectangular Body
   fill(198, 196, 192)
   noStroke()
-  rect(x, y, 45, 100);
+  rect(y, x, 45, 100);
   
   //triangular cone piece
   fill(249, 242, 14)
-  triangle( x , y , mouseX-45 , mouseY+45, mouseX+100 , mouseY-100);
+  
 }
