@@ -19,5 +19,5 @@ function draw() {
   
   //circular window
   fill(193, 191, 197);
-  ellipse(x+22.5,y-22.5,-45,45);
+  ellipse(x-22.5,y-22.5,+45,-45);
 }
