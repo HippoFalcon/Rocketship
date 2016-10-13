@@ -13,5 +13,5 @@ function draw() {
   
   //triangular cone piece
   fill(249, 242, 14)
-  triangle( mouseX+40 , mouseY+30 , mouseX-40 , mouseY+30, mouseX , mouseY-40);
+  triangle( x , y , mouseX-45 , mouseY+45, mouseX+35 , mouseY-40);
 }
