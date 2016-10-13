@@ -8,6 +8,6 @@ function draw() {
   var y = mouseY;
   //Rectangular Body
   fill(198, 196, 192)
-  rect(x, y, 20, 100);
+  rect(x, y, 45, 100);
 
 }
