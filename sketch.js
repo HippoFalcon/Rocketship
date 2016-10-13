@@ -13,5 +13,6 @@ function draw() {
   
   //triangular cone piece
   fill(249, 242, 14)
+  triangle(x,y,x+22.5,y+25,x+45,y
   
 }
