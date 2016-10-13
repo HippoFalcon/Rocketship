@@ -16,4 +16,8 @@ function draw() {
   //triangular cone piece
   fill(249, 242, 14)
   triangle(x,y,x+22.5,y+25,x+45,y);
+  
+  //circular window
+  fill(193, 191, 197)
+  ellipse(x,y,-45,45
 }
