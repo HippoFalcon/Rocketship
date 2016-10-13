@@ -4,6 +4,14 @@ function setup() {
 
 function draw() {
   
+  for(int i=0; i<100; i++) {
+
+  float r = random(-50, 50);
+
+  stroke(abs(r*5));
+
+  ellipse(50, i, 50+r, i);
+
   background(0,0,0);
   var x = mouseX;
   var y = mouseY; 
